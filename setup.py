@@ -15,6 +15,7 @@ setup(name='uservoice',
       author='Raimo Tuisku',
       author_email='dev@uservoice.com',
       packages=['uservoice'],
+      use_2to3=True,
       install_requires=[
           'simplejson',
           'pycrypto',
